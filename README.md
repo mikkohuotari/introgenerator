@@ -18,8 +18,8 @@ Dunno, this seemed like a fun experiment to recycle some animations created in v
 
 ## How 
 
-#1 Drop SharpSansDispNo1-Bold.otf file in folder
-#2 Open text-intro.html
+1. Drop SharpSansDispNo1-Bold.otf file in folder
+2. Open text-intro.html
 
 ## What's next
 
