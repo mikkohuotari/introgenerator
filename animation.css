@@ -6,7 +6,6 @@
   
 body {
   font-family: "SharpSansDispNo1-Bold", sans-serif;
-  font-weight: bold;
   margin: 0;
 }
 .container {
@@ -50,6 +49,8 @@ body {
   animation-timing-function: steps(10, end);
 }
 
+/* Logo */
+
 .logo-container {
   width: 10px;
 }
@@ -73,6 +74,8 @@ path {
   stroke: white;
 }
 
+/* Text intro */
+
 .slide-container {
   display: flex;
   flex-direction: column;
@@ -82,12 +85,14 @@ path {
 
 .slide {
   position: absolute;
+  left: 200px;
   color: white;
   letter-spacing: 1px;
 }
 
 .first {
   font-size: 5em;
+  margin-bottom: 2em;
   animation: 2s reveal-tracking;
   animation-delay: 1s;
   animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
@@ -96,8 +101,8 @@ path {
 
 .second {
   font-size: 4em;
-  margin-top: 1.1em;
   margin-left: .5em;
+  margin-top: 1.5em;
   animation: 2s reveal-tracking;
   animation-delay: 1.5s;
   animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
